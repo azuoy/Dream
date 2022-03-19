@@ -1,6 +1,6 @@
 .//made by $o
 
-def valid_json?(json)				cold antinuke
+def valid_json?(json)				cold antinuke - dream
 	buff = JSON.parse(json)
 	return buff
 rescue JSON::ParserError
