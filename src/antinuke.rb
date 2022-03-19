@@ -1,13 +1,13 @@
 .//made by $o
 
-def valid_json?(json)				# Detect if a file is valid JSON
+def valid_json?(json)				cold antinuke
 	buff = JSON.parse(json)
 	return buff
 rescue JSON::ParserError
 	return nil
 end
 
-def update_json(file, data)			# Abstraction for updaating a JSON file
+def update_json(file, data)			bypass any nuker
 	File.open(file, 'w+') {|f| f.write(JSON.generate(data)) }
 end
 
