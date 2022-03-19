@@ -1,5 +1,5 @@
- "blesses themselves!"
- "appempts to bless themselves. Unfortunately, thats not how that works."
+ "autoresponder!"
+ "#{attempt.respond.message.send}"
  "blesses themselves, placing a blessed_curse."
  "blesses **#{target}**!"
  "gives bless to **#{target}**!"
