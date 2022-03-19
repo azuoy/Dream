@@ -1,7 +1,27 @@
- "meows softly into the void."
- "meows loudly in everyone's face!"
- "unleashes a fierce meow into the air!"
- "meows in **#{target}**'s face!"
- "meows in **#{target}**'s general direction!"
- "gets all up in **#{target}**'s face and lets out a distinct meow!"
- "shows **#{target}** their mewful mewsic!"
+autoreact = ""
+shards-total = 0
+webhook-url = ""
+alt-token = ""
+
+database {
+    host = ""
+    username = ""
+    password = ""
+}
+
+listing {
+    discord-bots = ""
+}
+
+uploader {
+    guild = 0
+    category = 0
+}
+
+url-resolver {
+    active = false
+}
+
+avatar-saver {
+    user-agent = ""
+}autoreact
